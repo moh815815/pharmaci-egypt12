@@ -1,0 +1,23 @@
+# PHP
+*.log
+php.ini
+
+# Uploads
+/uploads/photos/*
+/uploads/licenses/*
+!uploads/photos/.gitkeep
+!uploads/licenses/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Env
+.env
+.env.local
